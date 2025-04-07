@@ -1,34 +1,35 @@
-📊 Netflix Under the Hood: EDA Edition
-This project is a comprehensive Exploratory Data Analysis (EDA) on Netflix's content dataset using Python.
-It explores trends in content release over the years, content types, country-wise distribution, genres, and ratings using visualizations like bar plots, word clouds, and choropleth maps.
+# 🎬 Netflix EDA Project - "Under the Hood"
 
-🔍 Objectives:
-Understand how Netflix's content has evolved over time
+This project is a detailed Exploratory Data Analysis (EDA) of Netflix's content dataset.  
+The goal was to analyze trends, most common content types, ratings, countries, and genres available on the platform.
 
-Analyze popular genres, ratings, and countries
+## 📊 Tools & Libraries Used
+- Python 🐍
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- WordCloud
+- Plotly (Choropleth Map)
 
-Create visual insights using Matplotlib, Seaborn, Plotly, and WordCloud
+## 🔍 Key Insights
+- Major content spike from **2016 to 2018**
+- **TV-MA** (Mature) rating dominates
+- **Movies** outnumber TV Shows
+- **USA** tops the chart for most content, followed by **UK** and **India**
+- Genres like **Drama** and **International Content** lead
 
-📈 Key Findings:
-A significant rise in content was observed between 2016 and 2018
+## 📁 Files
+- `Netflix-EDA.ipynb`: Jupyter Notebook with full code and visuals
+- `Final_Conclusion.md`: Summary of the insights
 
-Movies dominate over TV Shows
+## 📌 How to Run
+- Clone the repo
+- Run the notebook in Jupyter or VS Code
 
-'TV-MA' is the most frequent rating
+## 🧠 Learnings
+This project helped in understanding data visualization techniques, handling nulls, generating WordClouds, and building Choropleth maps.
 
-USA, India, and UK are the top content contributors
+## 🙏 Credits
+Dataset: [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
-Dramas and International content are most prominent
+---
 
-📦 Tools & Libraries:
-Python
-
-Pandas
-
-Matplotlib & Seaborn
-
-WordCloud
-
-Plotly (for Choropleth Map)
-
-Jupyter Notebook
